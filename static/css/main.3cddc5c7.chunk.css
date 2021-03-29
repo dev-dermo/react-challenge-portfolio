@@ -1,2 +1,0 @@
-.container{margin:20px auto;max-width:85%}header{-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;align-items:center}header,ul#navigation{display:-webkit-flex;display:flex}ul#navigation{-webkit-justify-content:space-around;justify-content:space-around;padding:0}ul#navigation li{list-style-type:none;padding:20px 10px}ul#navigation li a.active{color:green;font-weight:700}footer{text-align:center}footer ul{padding:0}footer ul li{list-style-type:none}
-/*# sourceMappingURL=main.3cddc5c7.chunk.css.map */
