@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import Navigation from '../Navigation';
 
-const Header = () => {
-	const pages = ['About me', 'Portfolio', 'Contact', 'Resume'];
-	const [currentPage, setCurrentPage] = useState(pages[0]);
+const Header = ({ pages, currentPage, setCurrentPage }) => {
+	useEffect(() => document.title = currentPage);
 
 	return (
 		<header>

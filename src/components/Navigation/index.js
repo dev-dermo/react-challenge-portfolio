@@ -8,7 +8,7 @@ const Navigation = ({ pages, currentPage, setCurrentPage }) => {
 					<li key={page}>
 						<a
 							className={currentPage === page ? 'active' : ''}
-							href=""
+							href="#"
 							onClick={(e) => {
 								e.preventDefault();
 								setCurrentPage(page);
@@ -20,8 +20,6 @@ const Navigation = ({ pages, currentPage, setCurrentPage }) => {
 				);
 			})}
 		</ul>
-
-		
 	);
 };
 
