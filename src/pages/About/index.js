@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<section>
 			<h2>About me</h2>
-			<img src="http://placehold.it/150x150" alt="headshot" />
+			<img src="https://placehold.it/150x150" alt="headshot" />
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu rhoncus tellus, sit amet luctus libero. Sed euismod, risus in varius tincidunt, nisi lacus pulvinar ante, ut euismod quam diam eget felis. Suspendisse potenti. Cras consequat orci risus, ut ullamcorper lectus interdum vel. Nullam volutpat mi et lectus mollis, a aliquet odio facilisis. Cras mauris neque, posuere vel orci ut, eleifend ornare risus. Ut elementum interdum mattis.
 			</p>
