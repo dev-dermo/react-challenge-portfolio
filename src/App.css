@@ -1,3 +1,7 @@
+* {
+  max-width: 100%;
+}
+
 .container {
   margin: 20px auto;
   max-width: 85%;
@@ -23,6 +27,20 @@ ul#navigation li {
 ul#navigation li a.active {
   color: green;
   font-weight: bold;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-container div.project {
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  border: dashed black 2px;
+  text-align: center;
 }
 
 footer {

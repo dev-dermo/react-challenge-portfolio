@@ -8,6 +8,7 @@ const Footer = () => {
 			<ul id="social">
 				<li><a href="https://github.com/diarmuid-murphy" target="_blank" rel="noreferrer">GitHub</a></li>
 				<li><a href="https://www.linkedin.com/in/diarmuidmurphy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+				<li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer">Twitter</a></li>
 			</ul>
 
 			&copy; {today.getFullYear()} <a href="https://github.com/diarmuid-murphy" target="_blank" rel="noreferrer">diarmuid-murphy</a>

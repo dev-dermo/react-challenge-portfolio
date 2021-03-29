@@ -1,9 +1,10 @@
 import React from 'react';
 
-const About = () => {
+const Resume = () => {
 	return (
 		<section>
-			<h2>About me</h2>
+			<h2>Resume</h2>
+			<button>Download resume</button>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu rhoncus tellus, sit amet luctus libero. Sed euismod, risus in varius tincidunt, nisi lacus pulvinar ante, ut euismod quam diam eget felis. Suspendisse potenti. Cras consequat orci risus, ut ullamcorper lectus interdum vel. Nullam volutpat mi et lectus mollis, a aliquet odio facilisis. Cras mauris neque, posuere vel orci ut, eleifend ornare risus. Ut elementum interdum mattis.
 			</p>
@@ -15,4 +16,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Resume;
