@@ -6,7 +6,7 @@ const Header = ({ pages, currentPage, setCurrentPage }) => {
 
 	return (
 		<header>
-			<h1><a href="/">Diarmuid Murphy | Software Engineer</a></h1>
+			<h1><a href="./">Diarmuid Murphy | Software Engineer</a></h1>
 
 			<Navigation
 				pages={pages}
